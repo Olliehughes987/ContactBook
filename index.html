@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PopComms project</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="panel">
+      <div class="top">
+        <div id="backButton" onclick="togglePanel()"><span class="material-icons-outlined">keyboard_arrow_left</span></div>
+        <h1>Contact</h1>
+      </div>
+      <div id=panelPhoto><h2 id="panelName">Empty Empty</h2></div>
+      <div id=info>
+        <p id="age">Age:</p>
+        <p id="email">Email:</p>
+        <p id="mobile">Mobile:</p>
+        <p id="phone">Phone:</p>
+        <p id="address">Address:</p>
+        <div id="contactButtons">
+          <a href=""><b>Call</b></a>
+          <a href=""><b>Email</b></a>
+        </div>
+      </div>
+    </div>
+    <div class="top">
+      <h1><span class="material-icons-outlined">perm_identity</span> My Contacts</h1>
+    </div>
+    <div class="searchArea">
+      <h3>Search</h3>
+      <input type="text" id="search">
+    </div>
+    <div class="searchArea">
+      <h3>Sort</h3>
+      <select name="sort" id="sort">
+        <option value="first">First Name</option>
+        <option value="last">Last Name</option>
+        <option value="state">State</option>
+      </select>
+      <button type="button" onclick="renderPeople()">Search</button>
+    </div>
+    <div id="container">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+I have listed the rough timings below, as these were not timed I am only
+estimating.
+I have tried to lay them out in the rough order they were completed in.
+
+
+mock contact with styling -> 20 mins
+populating with mock contacts -> 40 mins
+fetching data from API -> 10mins with research
+dynamically making contacts using API data -> 1 hour with research
+styling search and sort boxes -> 10 mins
+creating function/s for search -> 1.5 hours with research
+creating function/s for sort -> 1 hour with research
+populating panel (contact pop out) -> 1 hour
+finishing styling -> 30 mins
+
+
+I could have finished a few elements of the task quicker, however I ran into
+a few problems which took some time to solve.
+I am proud with how this project turned out and I hope you are too :)
